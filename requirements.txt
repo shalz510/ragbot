@@ -1,0 +1,35 @@
+streamlit
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+pypdf
+python-docx
+unstructured
+pytesseract
+Pillow
+pyttsx3
+openai
+# Text-to-Speech Requirements
+# Choose one or more based on your needs:
+
+# Option 1: gTTS (Google Text-to-Speech) - RECOMMENDED
+# Pros: Easy to use, good quality, works well with Streamlit
+# Cons: Requires internet connection
+gtts==2.5.0
+
+# Option 2: pyttsx3 (Offline TTS)
+# Pros: Works offline, no API needed
+# Cons: Quality varies by system, may have compatibility issues
+pyttsx3==2.90
+
+# Option 3: Edge TTS (Microsoft Edge)
+# Pros: High quality, many voices
+# Cons: Requires internet, async implementation
+edge-tts==6.1.9
+
+# Additional dependencies
+# If using pyttsx3 on Linux, you may also need:
+# sudo apt-get install espeak
+# sudo apt-get install ffmpeg
+# sudo apt-get install libespeak1
